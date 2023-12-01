@@ -14,7 +14,7 @@ h1{
 }
 form{
     display: flex;
-    height: 100px;
+    height: 80px;
     width: 90%;
     max-width: 600px;
     margin: auto;
@@ -53,13 +53,14 @@ form button{
     display: none;
     background: red;
     color: #fff;
-    border: 0;
+    border: 1px solid black;
     border-radius: 4px;
     outline: 0;
     align-items: center;
     padding: 20px 40px;
     margin:10px auto;
     font-size: 18px;
+    cursor: pointer;
 }
 #searchResult{
     width: 80%;
